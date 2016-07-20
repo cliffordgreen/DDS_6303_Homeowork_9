@@ -41,13 +41,10 @@ provided dataset.
     data(books)
     data(ukcars)
     data(visitors)
-    plot(books, type="l")
+    plot(visitors, type="l")
 
 ![](Post_Live_Session_9_files/figure-markdown_strict/unnamed-chunk-1-1.png)<!-- -->
 
-    plot(visitors, type="l")
-
-![](Post_Live_Session_9_files/figure-markdown_strict/unnamed-chunk-1-2.png)<!-- -->
 
     fitd <- decompose(visitors)
     plot(fitd)
